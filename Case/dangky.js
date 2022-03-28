@@ -27,14 +27,13 @@ function dangKy() {
 
 
 }
-
 function dangNhap() {
     let taiKhoan = tk.value;
     let matKhau = mk.value;
     for (let i = 0; i < arr.length; i++) {
         if (arr[i].username === taiKhoan && arr[i].password === matKhau) {
             alert("Đăng Nhap thành công")
-            window.location = "qlsp.html";
+            window.location = "sp.html";
         }
     }
 }
